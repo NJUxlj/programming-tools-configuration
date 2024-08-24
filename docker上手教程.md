@@ -4,7 +4,7 @@
 
 
 首先要安装一个yum工具
-``shell
+```shell
 yum install -y yum-utils
 ```
 
@@ -76,7 +76,8 @@ To generate this message, Docker took the following steps:
     to your terminal.
 
 To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
+
+$ docker run -it ubuntu bash
 
 Share images, automate workflows, and more with a free Docker ID:
  https://hub.docker.com/
