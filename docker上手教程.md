@@ -13,7 +13,36 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 ​
 #### 国内用下面这个
 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+
 最后，执行命令，安装Docker
 
 yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+
+
+
+非root权限：
+
+$ sudo systemctl enable docker
+$ sudo systemctl start docker
+
+root权限：
+
+$ systemctl enable docker
+$ systemctl start docker
+
+
+启动Docker
+sudo systemctl enable docker
+sudo systemctl start docker
+
+
+
+验证安装是否成功
+docker run hello-world
+
+
+docker run hello-world会先从本地搜索名为hello-world的镜像，若没有找到，则先从docker hub中pull该镜像，拉取镜像到本地成功后，再通过run指令来启动容器运行该镜像。
+
+
 
