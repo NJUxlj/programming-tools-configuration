@@ -106,5 +106,5 @@ For more examples and ideas, visit:
 
 
 
-### VMware 配置虚拟机网络
-[https://blog.csdn.net/qq_34207422/article/details/136745344]
+### 【环境配置】VMware虚拟机使用主机代理（详细教程）
+[[https://blog.csdn.net/qq_34207422/article/details/136745344](https://blog.csdn.net/weixin_63594197/article/details/138069939)]
