@@ -35,3 +35,13 @@ ip addr
 ping www.baidu.com
 通了即可
 
+
+
+
+
+## 在CentOS虚拟机中开启代理（如Clash之类）
+检查DHCP设置，没问题即可，当前我的NAT网关是192.128.2.2，子网是192.128.2.0, 虚拟机IP是192.128.2.88, 宿主机IP是 192.128.2.123
+
+![image](https://github.com/user-attachments/assets/a0776774-14f8-4b27-b34b-b4fbd169f7cc)
+
+![image](https://github.com/user-attachments/assets/abfd6167-656d-4724-ae2a-110f270b5bcc)
