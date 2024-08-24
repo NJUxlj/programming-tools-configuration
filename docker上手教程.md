@@ -87,3 +87,20 @@ For more examples and ideas, visit:
 
 ```
 
+
+
+
+### Linux配置Clash代理
+[https://zhengyang.wang/2022/03/linux-config-clash/]
+
+
+
+
+
+
+
+
+
+### 解决yum报错：错误：Invalid version flag: if
+[https://www.cnblogs.com/guuyoog/p/17666449.html]
+
