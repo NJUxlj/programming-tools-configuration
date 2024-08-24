@@ -104,3 +104,7 @@ For more examples and ideas, visit:
 ### 解决yum报错：错误：Invalid version flag: if
 [https://www.cnblogs.com/guuyoog/p/17666449.html]
 
+
+
+### VMware 配置虚拟机网络
+[https://blog.csdn.net/qq_34207422/article/details/136745344]
