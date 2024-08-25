@@ -106,3 +106,9 @@ sudo usermod -aG docker docker
 
 sudo usermod -aG docker $USER
 或者可以直接使用$USER这一bash命令替换当前用户名
+
+
+
+
+## 在Centos中使用Clash代理
+[https://cndaqiang.github.io/2020/07/17/clash/]
