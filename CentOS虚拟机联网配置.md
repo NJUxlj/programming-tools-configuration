@@ -53,59 +53,6 @@ ping www.baidu.com
 
 
 
-## Ubuntu中安装 Docker
-[https://blog.csdn.net/qq_61183213/article/details/139802898]
-sudo apt-get update
-sudo apt-get upgrade
-
-
-#### 安装Docker依赖
-apt-get install \
-ca-certificates \
-lsb-release \
-curl \
-gnupg -y
-
-
-
-#### 添加Docker密钥
-curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
-
-
-#### 获取docker源
-1. 添加当前Docker系统的代号
-lsb_release -cs
->> jammy
-
-
-添加Docker稳定版的官方软件源
-一般情况下，Ubuntu 16.04 LTS代号为xenial，Ubuntu 18.04 LTS代号为bionic。
-
-以Ubuntu 16.04 LTS操作系统为例，非xenial版本的系统注意修改为自己对应的代号：
-
-sudo add-apt-repository \
-"deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu \
-xenial \
-stable"
-
-
-添加成功后，再次更新apt软件包缓存
-
-sudo apt-get update
-
-
-#### 安装Docker
-sudo apt-get install -y docker-ce
-
-
-9、配置Docker服务
-        为了避免每次使用Docker命令时都需要切换到特权身份，可以将当前用户加入安装中自动创建的docker用户组
-
-sudo usermod -aG docker docker
-
-
-sudo usermod -aG docker $USER
-或者可以直接使用$USER这一bash命令替换当前用户名
 
 
 
